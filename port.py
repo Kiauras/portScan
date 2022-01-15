@@ -5,9 +5,9 @@ from queue import Queue
 import threading
 
 print()
-address = input('IP or IP range ')
-port = int(input('Port range start (From 1 to 65 000, max range not recommended) '))
-port2 = int(input('Port range end '))
+address = input('IP or IP range: ')
+port = int(input('Port range start (From 1 to 65 000, max range not recommended): '))
+port2 = int(input('Port range end: '))
 
 def scanner(port):
 
