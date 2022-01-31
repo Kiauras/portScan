@@ -21,7 +21,7 @@ def scanner(port):
             s.close()
         else:
             s.close() 
-            #print(f'\n{x} Port: {port} is closed!') # for testing
+            print(f'\n{x} Port: {port} is closed!') # for testing
 
 # multi threadding 
 def threader():
